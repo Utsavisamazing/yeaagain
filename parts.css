@@ -1,0 +1,64 @@
+body{
+    background: url(bg.jpg);
+}
+i{
+    padding:0;
+    margin-top:10px;
+    text-align: center;
+    font-size:30px ;
+    font-family: sans-serif;
+    color:#fff;
+    box-sizing: border-box;
+    border-bottom: 4px solid rgb(255, 253, 253);
+    position: absolute;
+    margin-left: 37%;
+    text-shadow: 0 20px 30px white;
+    border-radius: 10px;
+}
+
+
+.button1{
+ padding:0;
+ margin: 0;
+ width: 500px;
+ height: 500px;
+ text-align: center;
+ top: 200px;
+ left: 300px;
+ position: relative;
+border: 3px solid #555;
+border-radius: 5px;
+transition-duration: 60s; 
+background: url(pc1.png);
+}
+
+.button2{
+    padding:0;
+    margin: 0;
+    width: 500px;
+    height: 500px;
+    text-align: center;
+    top: 200px;
+    left: 600px;
+    position: relative;
+   border: 3px solid #555;
+   border-radius: 5px;
+   transition-duration: 60s; 
+   background: url(piri.jpg);
+   }
+   
+
+.button1{
+    box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+}
+.button1:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    transform:scale(0.95)
+}
+.button2{
+    box-shadow: 0 30px 60px rgba(0,0,0,0.5);
+}
+.button2:hover{
+    box-shadow: 0 5px 10px rgba(0,0,0,0.5);
+    transform:scale(0.95)
+}
